@@ -1,4 +1,5 @@
 <?php
+// session 
 session_start();
 ?>
 <!DOCTYPE html>
@@ -60,3 +61,5 @@ session_start();
   </footer>
 </body>
 </html>
+
+
