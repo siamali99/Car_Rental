@@ -1,0 +1,41 @@
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.car {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; /* Adjusted height to auto */
+}
+
+.car h2 {
+    margin: 0;
+    padding-right: 10px; /* Added right padding to separate name and price */
+}
+
+.price {
+    font-weight: bold;
+}
+
+.rating-form {
+    display: flex;
+    align-items: center; /* Adjusted alignment */
+}
+
+.rating-form label {
+    font-weight: bold;
+    margin-right: 10px; /* Reduced margin between label and select */
+}
+
+.rating-form select {
+    padding: 5px;
+}

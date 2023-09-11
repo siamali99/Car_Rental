@@ -1,0 +1,55 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    background-color: #ffffff;
+    color: rgb(31 31 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+
+
+  .hero-section {
+    background-image: url('../image/whitecar.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: rgb(81, 81, 81);
+    padding: 100px  ;
+    flex: 1; /* Allow hero ection to grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer {
+    background-color: #ffffff;
+    color: rgb(31 31 31);
+    text-align: center;
+    padding: 10px 0;
+  }
+.add{
+  color:white;
+}
